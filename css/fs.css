@@ -1,0 +1,159 @@
+.d {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.di {
+    position: fixed;
+    top: 140px;
+    left: 100px;
+}
+
+.f {
+    position: fixed;
+    left: 500px;
+    right: 500px;
+    top: 100px;
+    width: 500px;
+    height: 450px;
+    border: 5px solid grey;
+    border-radius: 2px;
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+    color: black;
+}
+
+.main {
+    text-align: justify;
+}
+
+#name {
+    font: small;
+    font-size: small;
+    font-family: -apple-system;
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 220px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color:#E7E7E7;
+}
+
+#email {
+    font: small;
+    font-size: small;
+    font-family: -apple-system;
+    width: 200px;
+    height: 30px;
+    margin-top: 3px;
+    margin-left: 195px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color:#E7E7E7;
+}
+
+#phone {
+    font: small;
+    font-size: small;
+    font-family: -apple-system;
+    width: 200px;
+    height: 30px;
+    margin-top: 2px;
+    margin-left: 210px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color:#E7E7E7;
+}
+
+#gender {
+    margin-right: 230px;
+}
+
+#c {
+    margin: 10px;
+}
+
+#cb {
+    font:small;
+    font-size: small;
+    font-family: -apple-system;
+    width: 212px;
+    height: 40px;
+    margin-top: 2px;
+    margin-left: 205px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color:#E7E7E7;
+}
+
+#m {
+    font: small;
+    font-size: small;
+    font-family: -apple-system;
+    width: 205px;
+    height: 35px;
+    margin-top: 3px;
+    margin-left: 190px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color:#E7E7E7;
+}
+
+#pu {
+    margin-top: 20px;
+}
+
+#ru {
+    margin-top: 20px;
+}
+
+#sbtn {
+    color: white;
+    background-color: #04AA6D;
+    font-family: -apple-system;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid gray;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: ease-in 0.4s;
+    transition-duration: 0.4s;
+    padding: 5px;
+    width: 100px;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+#sbtn:hover {
+    background-color: #008CBA;
+    color: black;
+}
+
+#rbtn {
+    color: white;
+    background-color: #555555;
+    font-family: -apple-system;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2PX solid gray;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: ease-in 0.4s;
+    transition-duration: 0.4s;
+    padding: 5px;
+    width: 100px;
+}
+
+#rbtn:hover {
+    background-color: #E7E7E7;
+    color: black;
+}

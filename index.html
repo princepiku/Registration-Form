@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form File</title>
+    <script src="https://kit.fontawesome.com/c68b7ea0e0.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="image/Form.png">
+    <link rel="stylesheet" href="css/fs.css"> 
+</head>
+<body>
+    <div class="d">
+        <img src="image/wallpaper.jpg" alt="background-image">
+    </div>
+
+    <div class="di">
+        <img src="image/Form.png" alt="form-image" width="400px" height="400px">
+    </div>
+
+    <form action="ftest.html" name="Sheet2">
+        <fieldset class="f">
+            <legend>Registration Form</legend>
+            <div class="main" >
+                <div>
+                    <label for="name">Name : </label>
+                    <input type="text" id="name" title="Enter your name" autofocus placeholder="Caspian Prince" required>
+                </div>
+
+                <div>
+                    <label for="email">Email-id : </label>
+                    <input type="email" id="email" title="Enter your email-id" placeholder="alexpk98@gmail.com" required>
+                </div>
+
+                <div>
+                    <label for="phone">Mobile : </label>
+                    <input type="text" id="phone" title="Enter your phone number" minlength="10" maxlength="10" placeholder="914-238-2053" required>
+                </div>
+
+                <div>
+                    <label id="gender">Gender : </label>
+                    <input type="radio" name="g" checked>
+                    <label for="male">Male </label>
+                    <input type="radio" name="g">
+                    <label for="female">Female </label>
+                </div>
+
+                <div>
+                    <label for="c">Categories : </label>
+                    <input type="checkbox" id="c">
+                    <label for="c">Front-End</label>
+                    <input type="checkbox" id="c">
+                    <label for="c">Back-End</label>
+                    <input type="checkbox" id="c">
+                    <label for="c">Database</label>
+                </div>
+
+                <div>
+                    <label for="cb">Course : </label>
+                    <select name="" id="cb" title="Select your course">
+                        <option value="" selected>None</option>
+                        <option value="">Web Ui/Ux</option>
+                        <option value="">MERN</option>
+                        <option value="">MEAN</option>
+                        <option value="">Data Scientist</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="m">Location : </label>
+                    <input list="location" name="cities" id="m" title="Select your location">
+                    <datalist id="location">
+                        <option value="Pune"></option>
+                        <option value="Mumbai"></option>
+                        <option value="Bangalore"></option>
+                        <option value="Chennai"></option>
+                        <option value="Hydrabaad"></option>
+                    </datalist>
+                </div>
+
+                <div>
+                    <label id="pu">Photo : </label>
+                    <input type="file" id="pu" value="upload" accept="image/*" title="Upload your image">
+                </div>
+
+                <div>
+                    <label id="ru">Resume : </label>
+                    <input type="file" id="ru" value="upload" title="Upload your CV">
+                </div>
+
+                <div>
+                    <input type="submit" value="Submit" id="sbtn" title="Register the details">
+                    <input type="reset" value="Clear" id="rbtn" title="Clear the field">
+                </div>
+            </div>
+        </fieldset>
+    </form>
+
+    <!-- <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyW2iW50X2-eFp4pL8JxEUpos5BdTRUkN2P5eObP4ow3xZHveeWKjL0jIipHhVgNMKWFA/exec'
+    const form = document.forms['Sheet2']
+
+    const msg = document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Thank You ! Message Send Successfully !"
+          setTimeout(function()
+          {
+            msg.innerHTML = ""
+          }, 3000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script> -->
+
+</body>
+</html>
